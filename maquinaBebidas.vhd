@@ -80,11 +80,11 @@ BEGIN
 					disp1 <= "1000000";
 				END IF;
 				IF(escolha(0) = '0' AND escolha(1) = '1') THEN --Apenas agua
-					disp5 <= "1111111";
-					disp4 <= "0001000";
-					disp3 <= "0000010";
-					disp2 <= "1000001";
-					disp1 <= "0001000";
+						disp5 <= "1111111";
+						disp4 <= "0001000";
+						disp3 <= "0000010";
+						disp2 <= "1000001";
+						disp1 <= "0001000";
 				END IF;
 			WHEN est_tudo =>                     --2 Reais ou mais
 				opcao <= "11";                    -- Irá ascender ambas as opções
